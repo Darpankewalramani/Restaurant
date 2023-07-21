@@ -1,0 +1,95 @@
+body {
+  background-color: black;
+  margin: 0px;
+}
+#reservation {
+ text-align: center;
+ background: linear-gradient(to left top, #000000 5%, #91070c , #000000  , #91070c, #000000 90%);
+    height: 570px;
+    border-style:solid;border-image:linear-gradient(to left top, #000000 , #d6050c 30%); border-bottom:0;
+    position: relative;
+    width: 60%;
+    margin-left:auto;
+    margin-right: auto;
+    border: solid 4px wheat;
+    outline: solid 5px#bb040a;
+    font-size: 29px;
+    color:#f5deb3;
+    font-family: 'Italianno';
+    margin-top: 30px;
+    
+}
+select {
+  box-sizing:;
+  border: solid 5px #6e0206;
+  background-color: #000000;
+  color: #f5deb3;
+  padding: 10px 8px;
+  margin-left: 80px;
+  font-size: 15px;
+  box-shadow: 10px 10px 5px #000000;
+  -moz-box-shadow: 10px 10px 5px #000000;
+  -webkit-box-shadow: 10px 10px 5px #000000;
+  -khtml-box-shadow: 10px 10px 5px #000000;
+}
+input[type=text] {
+  box-sizing:;
+  border: solid 5px #6e0206;
+  background-color: #000000;
+  color: #f5deb3;
+  padding: 10px 8px;
+  font-size: 15px;
+  box-shadow: 10px 10px 5px #000000;
+  -moz-box-shadow: 10px 10px 5px #000000;
+  -webkit-box-shadow: 10px 10px 5px #000000;
+  -khtml-box-shadow: 10px 10px 5px #000000;
+}
+.input2 {
+  display: inline;
+}
+.text1 {
+  display: inline;
+  margin-left: 10px;
+}
+.text2 {
+  display: inline;
+  margin-left: 10px;
+}
+.text3 {
+  display: inline;
+  margin-left: 120px;
+}
+#resbut {
+  padding: 10px 10px;
+  background-color: #690808;
+  color:#f5deb3;
+  font-size: 20px;
+  border-radius: 100px;
+  margin-top: 32px;
+  border: solid 4px #f5deb3a8;
+  cursor: pointer;
+  font-family: 'Playfair Display';
+  }
+#resbut:hover { 
+  background-color: #990409; 
+  transition: all 0.3s ease 0s;
+  padding: 15px 15px;
+}
+#backtohome {
+  padding: 5px 5px;
+  background-color: #690808;
+  color:#f5deb3;
+  font-size: 17px;
+  border-radius: 7px;
+  margin-top: 20px;
+  border: solid 4px #f5deb3a8;
+  cursor: pointer;
+  float: left;
+  margin-left: 13px;
+  font-family: 'Playfair Display';
+  }
+#backtohome:hover { 
+  background-color: #990409; 
+  transition: all 0.3s ease 0s;
+  padding: 8px 8px;
+}

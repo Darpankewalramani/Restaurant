@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/order.css">
+    <link href='https://fonts.googleapis.com/css?family=Italianno' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>DKEK Restaurant</title>
+    <link rel="shortcut icon" href="images/chilli1.png"/>
+	<script>
+        function placeorder()
+        {
+            alert("Your order has been placed. It will be delivered to you within 25 minutes. Thank you for ordering at DKEK Restaurant.");
+        }
+    </script>
+</head>
+<body>
+
+    <header style="background-image: url('images/header3.jpg'); background-repeat: no-repeat; background-attachment: fixed; background-size: 100% 75%; ">
+        <img class="logo" src="images/logo.png" height="160px" width="160px" alt="logo">
+        <nav>
+            <ul class="nav_links">
+                <li><a href="PROJECT.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="staff.html">Our Staff</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="delivery.html">Home Delivery</a></li>
+            </ul>
+        </nav>
+        <div><p id="logoname">DKEK Restaurant</p></div>
+    </header>
+
+    <section id="deliverysection">
+            <br><br><br> <br><br><h2 class="formh">Delivery Details : </h2>
+                <div id="i2"> 
+                    <form>
+                    <div class="i3">
+                       <p class="text">Your Name:</P>
+                        <input class="input" type="text" name="address">
+                        <br> <p class="text">Address:</P>
+                        <input class="input" type="text" name="Address"/>
+                        <p class="text">Phone Number:</P>
+                        <input class="input" type="text" name="Address">
+                        <br>
+                        <p>Area</p>
+                        <select class="input" name="Area">
+                        <option class="input" value="Saddar">Saddar</option>
+                        <option value="Cant">Cant</option>
+                        <option value="Gulshan Iqbal">Gulshan Iqbal</option>
+                        <option value="DHA Phase 1">DHA Phase 1</option>
+                        <option value="DHA Phase 2">DHA Phase 2</option>
+                        <option value="DHA Phase 6">DHA Phase 6</option>
+                        <option value="DHA Phase 7">DHA Phase 7</option>
+                        <option value="DHA Phase 8">DHA Phase 8</option>
+                        <option value="Korangi Town">Korangi Town</option>
+                        <option value="Bin Qasim Town">Bin Qasim Town</option>
+                        <option value="DHA Phase 5">DHA Phase5</option>
+                        <option value="Malir cant">Malir Cant</option>
+                    </select>
+                    <br>
+                    <p>Food</p>
+                        <select class="input" name="Food">
+                        <option>Pizza</option>
+                        <option>Karahi</option>
+                        <option>Rice</option>
+                        <option>Shake</option>
+                        <option>Soup</option>
+                        <option>Jalapeno Steak</option>
+                        <option>Salad</option>
+                        <option>Cheesecake</option>
+                        <option>Pastry</option>
+                        
+                       </select> 
+                       <br>
+                    <p>Quantity</p>
+                        <select class="input" name="Quantity">
+                        <option class="input" value="full">Full</option>
+                        <option value="Medium">Medium</option>
+                        <option value="Large">Large</option>
+                        <option value="Extra Large">Extra Large</option>
+                       </select> 
+                       <br>
+                       <p>Payment Method</p>
+                       <select class="input" name="Payment">
+                        <option class="input" value="Habib Metro Bank">Habib Metro Bank</option>
+                        <option value="HBL">HBL</option>
+                        <option value="Js Bank">js Bank</option>
+                        <option value="Easy paisa">Easy paisa</option>
+                        <option value="Jazz Cash">Jazz Cash</option>
+                        <option value="Daraz Wallet">Daraz wallet</option>
+                    </select>
+                    <br>
+                    <button id="i5" onclick="placeorder()">Place Order</button>
+                </div>
+                </form>
+                </div>
+                <div><img id="spicy" src="images/chilli1.png" height="400px" width="400px"></div>
+                </section>
+                </body>
+                <section id="footer1">
+                    <div id="address">
+                    DHA PHASE 2,<br>DEFENCE,<br>Karachi, Sindh.<br><br>Phone :0331-3093844<br>E-mail :dkewalramani12@gmail.com
+                    </div>
+                    <div id="wh">
+                        <b>Monday To Friday</b><br>
+                        8:00am to 10:00pm(Breakfast)<br>
+                        11:00am to 10:00pm(Lunch/Dinner)<br><br>
+            
+                       <b>Saturday & Sunday</b><br>
+                        10:00am to 11:00pm(Brunch)<br>
+                        11:00am to 12:00pm(Lunch/Dinner)
+                    </div>
+                    <div id="loc"><h2>Our Location</h2></div>
+                    <div id="hwh"><h2>Our Working Hours</h2></div>
+                    <div id="maph"><h2>Find Us Easily</h2></div>
+                    <div id="map"><img class="map_img" src="images/map.jpeg" alt="map"></div>
+                    <div id="footer2"><p id="qq">All Rights Reserved © Darpan Kumar Kewalramani Eshwar Kumar Kewalramani</p></div>
+                    <div><img id="fchilli" src="images/chilli1.png" height="100px" width="100px"></div>
+                    <a class="gotopbtn" href="#"><i class="fas fa-arrow-up"></i></a>
+                    
+                </section>
+                </body>
+                </html>

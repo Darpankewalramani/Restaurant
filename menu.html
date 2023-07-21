@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/menu.css">
+    <link href='https://fonts.googleapis.com/css?family=Italianno' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>  
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>DKEK Restaurant</title>
+    <link rel="shortcut icon" href="images/chilli1.png"/>
+    <script>
+        function myMove1() {
+          var elem = document.getElementById("menu1"); 
+          var pos = 0;
+          var id = setInterval(frame, 0);
+          function frame() {
+            if (pos == 660) {
+              clearInterval(id);
+            } else {
+              pos++; 
+              elem.style.top = "px"; 
+              elem.style.left = pos + "px"; 
+            }
+          }
+        }
+        function myMove2() {
+          var elem = document.getElementById("menu2"); 
+          var pos = 0;
+          var id = setInterval(frame, 0.00000001);
+          function frame() {
+            if (pos == 660) {
+              clearInterval(id);
+            } else {
+              pos++; 
+              elem.style.top = "px"; 
+              elem.style.left = pos + "px"; 
+            }
+          }
+        }
+        function myMove3() {
+          var elem = document.getElementById("menu3"); 
+          var pos = 0;
+          var id = setInterval(frame, 0.00000001);
+          function frame() {
+            if (pos == 660) {
+              clearInterval(id);
+            } else {
+              pos++; 
+              elem.style.top = "px"; 
+              elem.style.left = pos + "px"; 
+            }
+          }
+        }
+        function myMove4() {
+          var elem = document.getElementById("menu4");  
+          var pos = 0;
+          var id = setInterval(frame, 0.00000001);
+          function frame() {
+            if (pos == 660) {
+              clearInterval(id);
+            } else {
+              pos++; 
+              elem.style.top = "px"; 
+              elem.style.left = pos + "px"; 
+            }
+          }
+        }
+        </script>
+	
+</head>
+<body>
+
+    <header style="background-image: url('images/header3.jpg'); background-repeat: no-repeat; background-attachment: fixed; background-size: 100% 75%; ">
+        <img class="logo" src="images/logo.png" height="160px" width="160px" alt="logo">
+        <nav>
+            <ul class="nav_links">
+                <li><a href="PROJECT.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="staff.html">Our Staff</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="delivery.html">Home Delivery</a></li>
+            </ul>
+        </nav>
+        <div><p id="logoname">car rent </p></div>
+    </header>
+    <section id="menusection" style="background-image: url('images/menub3.jpg'); background-repeat: no-repeat; background-attachment: fixed; background-size: 100% 195%; ">
+        <div><img id="borderline1" src="images/line1.png" ></div>
+        <div><img id="borderline2" src="images/line1.png" ></div>
+        <div><img id="borderline3" src="images/line3.png" ></div>
+        <div><img id="borderline4" src="images/line3.png" ></div>
+        <div><img id="bordercorner1" src="images/line2.png" ></div>
+        <div><img id="bordercorner2" src="images/line2.png" ></div>
+        <div><img id="bordercorner3" src="images/line2.png" ></div>
+        <div><img id="bordercorner4" src="images/line2.png" ></div>
+        <div id="menuheading"><h1>Our Menu</h1></div>
+        <div id="displayhead">(Tap To Display)</div>
+        <div id="abtn"><button class="menubutton" onclick="myMove1()">Appetizer</div>
+        <div id="menu1">
+            <div class="flip-box">
+                <div class="flip-box-inner">
+                  <div class="flip-box-front">
+                    <img src="images/croissant.jpg" alt="appetizer" style="width:240px;height:120px">
+                  </div>
+                  <div class="flip-box-back">
+                    <p><b>Croissant</b><br>Yummy Crispy Croissant for 300/-Rs</p>
+                  </div>
+                </div>
+              </div>
+              <div class="flip-box">
+                <div class="flip-box-inner">
+                  <div class="flip-box-front">
+                    <img src="images/salad.jpg" alt="appetizer" style="width:240px;height:120px">
+                  </div>
+                  <div class="flip-box-back">
+                    <p><b>Salad</b><br>Fresh juicy Salad for 700/-Rs</p>
+                  </div>
+                </div>
+              </div>
+              <div class="flip-box">
+                <div class="flip-box-inner">
+                  <div class="flip-box-front">
+                    <img src="images/wonton.jpg" alt="appetizer" style="width:240px;height:120px">
+                  </div>
+                  <div class="flip-box-back">
+                    <p><b>Wontons</b> <br>Freshly Baked Wontons for 200/-Rs</p>
+                  </div>
+                </div>
+              </div>
+              <div class="flip-box">
+                <div class="flip-box-inner">
+                  <div class="flip-box-front">
+                    <img src="images/soup2.jpg" alt="appetizer" style="width:240px;height:120px">
+                  </div>
+                  <div class="flip-box-back">
+                    <p><b>Soup</b><br>Delicious Soup with chicken chunks for 600/-Rs</p>
+                  </div>
+                </div>
+                <div><img id="spicydiv" src="images/chilli1.png" height="120px" width="120px"></div>
+              </div>
+        </div>
+        <div id="mcbtn"><button class="menubutton" onclick="myMove2()">Main Course</button></div>
+        <div id="menu2">
+            <div class="flip-box">
+                <div class="flip-box-inner">
+                  <div class="flip-box-front">
+                    <img src="images/karahi.jpg"  style="width:240px;height:120px">
+                  </div>
+                  <div class="flip-box-back">
+                    <p><b>Karahi</b><br>Delicious Traditional Karahi for 2000/-Rs</p>
+                  </div>
+                </div>
+              </div>
+              <div class="flip-box">
+                <div class="flip-box-inner">
+                  <div class="flip-box-front">
+                    <img src="images/steakm.jpg" alt="mc" style="width:240px;height:120px">
+                  </div>
+                  <div class="flip-box-back">
+                    <p><b>Jalapeno Steak</b><br>Spicy Juicy Steak With Vegetables for 5000/-Rs</p>
+                  </div>
+                </div>
+              </div>
+              <div class="flip-box">
+                <div class="flip-box-inner">
+                  <div class="flip-box-front">
+                    <img src="images/rice.jpg" alt="mc" style="width:240px;height:120px">
+                  </div>
+                  <div class="flip-box-back">
+                    <p><b>Rice</b><br>Steamy Boiled Rice for 1200/-Rs</p>
+                  </div>
+                </div>
+              </div>
+              <div class="flip-box">
+                <div class="flip-box-inner">
+                  <div class="flip-box-front">
+                    <img src="images/pizza.jpg" alt="mc" style="width:240px;height:120px">
+                  </div>
+                  <div class="flip-box-back">
+                    <p><b>Pizza</b><br>Fajita Flavoured Pizza With Stuffed Crust for 2000/-Rs</p>
+                  </div>
+                </div>
+                <div><img id="spicydiv" src="images/chilli1.png" height="120px" width="120px"></div>
+              </div>
+        </div>
+        <div id="dbtn"><button class="menubutton" onclick="myMove3()">Dessert</button></div>
+        <div id="menu3"> <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="images/cake.jpg" alt="dessert" style="width:240px;height:120px">
+              </div>
+              <div class="flip-box-back">
+                <p><b>Strawberry Cheesecake</b><br>A Slice of Creamy Cheesecake 700/-Rs</p>
+              </div>
+            </div>
+          </div>
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="images/pastry.jpg" alt="dessert" style="width:240px;height:120px">
+              </div>
+              <div class="flip-box-back">
+                <p><b>Pastry</b><br>Chocolate Flavoured Pastry for 500/-Rs</p>
+              </div>
+            </div>
+          </div>
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="images/pudding.jpg" alt="dessert" style="width:240px;height:120px">
+              </div>
+              <div class="flip-box-back">
+                <p><b>Pudding</b><br>Yummy Custard Filled Pudding for 1000/-Rs</p>
+              </div>
+            </div>
+          </div>
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="images/cupcake.jpg" alt="dessert" style="width:240px;height:120px">
+              </div>
+              <div class="flip-box-back">
+                <p><b>cupcake</b><br>Delicious Cupcake with Iced Top for 450/-Rs</p>
+              </div>
+            </div> <div><img id="spicydiv" src="images/chilli1.png" height="120px" width="120px"></div>
+          </div></div>
+        <div id="bbtn"><button class="menubutton" onclick="myMove4()">Beverages</button></div>
+        <div id="menu4"> <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="images/tea.jpg" alt="Beverages" style="width:240px;height:120px">
+              </div>
+              <div class="flip-box-back">
+                <p><b>Kashmiri Tea</b><br>Sweet Smelling Kashmiri Tea for 300/-Rs</p>
+              </div>
+            </div>
+          </div>
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="images/mint.jpg" alt="Beverages" style="width:240px;height:120px">
+              </div>
+              <div class="flip-box-back">
+                <p><b>Mint Lemonade</b><br>Fresh Refreshing Mint Lemonade for 400/-Rs</p>
+              </div>
+            </div>
+          </div>
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="images/shake.jpg" alt="Beverages" style="width:240px;height:120px">
+              </div>
+              <div class="flip-box-back">
+                <p><b>Shake</b><br>Strawberry Shake With Whipped Cream for 480/-Rs</p>
+              </div>
+            </div>
+          </div>
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="images/juice.jpg" alt="Beverages" style="width:240px;height:120px">
+              </div>
+              <div class="flip-box-back">
+                <p><b>Orange Juice</b><br>Fresh Salted Orange Juice for 300/-Rs</p>
+              </div>
+            </div>
+            <div><img id="spicydiv" src="images/chilli1.png" height="120px" width="120px"></div>
+            </div></div>
+
+            <div><img id="spicy" src="images/chilli1.png" height="170px" width="170px"></div>
+    </section>
+    <section id="footer1">
+        <div id="address">
+        <p>DHA PHASE 2,<br>DEFENCE,<br>Karachi, Sindh.<br><br>Phone :0331-3093844<br>E-mail :dkewalramani12@gmail.com</p>
+        </div>
+        <div id="wh">
+            <b>Monday To Friday</b><br>
+            8:00am to 10:00pm(Breakfast)<br>
+            11:00am to 10:00pm(Lunch/Dinner)<br><br>
+
+           <b>Saturday & Sunday</b><br>
+            10:00am to 11:00pm(Brunch)<br>
+            11:00am to 12:00pm(Lunch/Dinner)
+        </div>
+        <div id="loc"><h2>Our Location</h2></div>
+        <div id="hwh"><h2>Our Working Hours</h2></div>
+        <div id="maph"><h2>Find Us Easily</h2></div>
+        <div id="map"><img class="map_img" src="images/map.jpeg" alt="map"></div>
+        <div id="footer2"><p id="qq">All Rights Reserved © Darpan Kumar Kewalramani Eshwar Kumar Kewalramani</p></div>
+        <div><img id="fchilli" src="images/chilli1.png" height="100px" width="100px"></div>
+        <a class="gotopbtn" href="#"><i class="fas fa-arrow-up"></i></a>
+        
+    </section>
+    </body>
+    </html>
+ 
